@@ -10,7 +10,7 @@ italics the naming codes (ICN and ICNCP) ask for.
 
 Built for and used in production by [PlantGeekz](https://plantgeekz.com), the plant
 identification and collection app. Also available for JavaScript and TypeScript as
-[`@plantgeekz/botanical-name`](https://github.com/plantgeekz/botanical-name-js); both
+[`@plantgeekz_com/botanical-name`](https://github.com/plantgeekz/botanical-name-js); both
 packages run the same test fixtures and give byte-identical results.
 
 ```php

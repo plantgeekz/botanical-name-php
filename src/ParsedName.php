@@ -8,7 +8,7 @@ namespace PlantGeekz\BotanicalName;
  * A botanical name split into its parts.
  *
  * toArray() has the same shape as the object returned by the JavaScript
- * package (@plantgeekz/botanical-name), so both can share test fixtures.
+ * package (@plantgeekz_com/botanical-name), so both can share test fixtures.
  */
 final readonly class ParsedName implements \JsonSerializable, \Stringable
 {
