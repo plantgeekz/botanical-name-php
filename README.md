@@ -3,6 +3,7 @@
 [![Tests](https://github.com/plantgeekz/botanical-name-php/actions/workflows/tests.yml/badge.svg)](https://github.com/plantgeekz/botanical-name-php/actions/workflows/tests.yml)
 [![Packagist](https://img.shields.io/packagist/v/plantgeekz/botanical-name.svg)](https://packagist.org/packages/plantgeekz/botanical-name)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22765110.svg)](https://doi.org/10.5281/zenodo.22765110)
 
 Parse, normalize and format botanical plant names in PHP - hybrids, infraspecific
 ranks, authors, cultivars, cultivar groups and trade designations - with the
@@ -158,6 +159,12 @@ The fixtures in [`fixtures/names.json`](fixtures/names.json) are shared with the
 JavaScript package. Before release both implementations were run over 30,569 real
 names from the PlantGeekz taxonomy (species with authors and cultivars): identical
 output, and every clean name came back unchanged.
+
+## Citing
+
+If you use botanical-name in research, please cite it via its DOI:
+[10.5281/zenodo.22765110](https://doi.org/10.5281/zenodo.22765110) (all versions). GitHub's "Cite this repository"
+button gives the citation in APA and BibTeX.
 
 ## License
 
