@@ -1,0 +1,55 @@
+{
+    "name": "plantgeekz/botanical-name",
+    "description": "Parse, normalize and format botanical plant names (ICN + ICNCP): hybrids, infraspecific ranks, authors, cultivars, groups and correct italics.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "botany",
+        "botanical",
+        "plant",
+        "plants",
+        "taxonomy",
+        "scientific-name",
+        "nomenclature",
+        "cultivar",
+        "icn",
+        "icncp",
+        "parser",
+        "gardening"
+    ],
+    "homepage": "https://plantgeekz.com",
+    "authors": [
+        {
+            "name": "PlantGeekz",
+            "homepage": "https://plantgeekz.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/plantgeekz/botanical-name-php/issues",
+        "source": "https://github.com/plantgeekz/botanical-name-php"
+    },
+    "require": {
+        "php": "^8.2",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^11.5 || ^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PlantGeekz\\BotanicalName\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PlantGeekz\\BotanicalName\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
