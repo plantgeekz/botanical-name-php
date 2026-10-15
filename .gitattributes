@@ -6,3 +6,5 @@
 /phpunit.xml.dist export-ignore
 /phpstan.neon.dist export-ignore
 /CHANGELOG.md export-ignore
+/.zenodo.json export-ignore
+/CITATION.cff export-ignore
